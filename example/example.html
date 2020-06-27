@@ -1,0 +1,74 @@
+<!-- 
+    This is an example for codeViewBox.js
+    First add CodeViewBox.js to your project
+    Remember that JQUERY is required
+
+    then all you need to do is to: 
+    1- Create a div element with the class of "codeviewbox"
+    2- Create a pre element into the div you created
+    3- Write your code in the pre element
+    !!THE CODE WRITTEN IN pre ELEMENT WITH NO SPACE BEHIND IT 
+
+    After that you need to call start method
+    You can change and customize the library in your page script before calling the start method
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Adding JQUERY and CodeViewBox.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./../codeviewbox.min.js"></script>
+</head>
+
+<body style="padding: 20px 20%;">
+
+    <!-- Page JS script -->
+    <script>
+        $('document').ready(() => {
+
+            /*
+            -- Customizing div basic styles
+            codeViewBox.initStyles[property] = value;
+
+            -- Customizing div>pre basic styles
+            codeViewBox.PreInitStyle[property] = value;
+
+            -- Changing the theme
+            codeViewBox.theme(themeName);
+            -- Using custom theme
+            codeViewBox.theme("custom",{
+                backgroundColor: "color",
+                fontColor: "color",
+                fontSize: "n-px",
+                textPrimaryColor: "color",
+                textSecondaryColor: "color"
+            });
+
+            -- Disabling or enabling showing the line count
+            codeViewBox.showLineCount = false/true;
+
+            -- Customizing line count styles
+            codeViewBox.lineCountStyles[property] = value;
+
+            */
+
+            //Calling start method
+            codeViewBox.start();
+        });
+    </script>
+
+    <!-- Write your code in div.codeviewbox>pre with no space behind -->
+    <div class="codeviewbox">
+        <pre>
+if(sad() === true){
+	sad().stop();
+	beAwesome();
+}
+        </pre>
+    </div>
+
+</body>
+
+</html>
