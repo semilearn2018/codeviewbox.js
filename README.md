@@ -1,4 +1,4 @@
-# CodeViewBlock.JS
+# CodeViewBox.JS
 Show your code through html simplest as ever
 
 ![banner](https://akasoft.ir/semilearn/libraries/codeViewBox/cvb.png)
