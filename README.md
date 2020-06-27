@@ -27,8 +27,6 @@ Write your code here without any extra left space
 </div>
 ```
 
-##### Video Example:
-![video example](https://akasoft.ir/semilearn/libraries/codeViewBox/preview.gif)
 ---
 ### Customization and options
 CodeViewBox gives you a lot of customization options:
